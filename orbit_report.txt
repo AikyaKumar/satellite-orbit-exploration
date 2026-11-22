@@ -1,0 +1,32 @@
+=========================================================================
+Satellite Orbit Report - built during Space Career Week 2026, GNSS Academy
+=========================================================================
+
+Source: CelesTrak - Retrieved UTC: 2026-11-10T16:30:32Z
+
+--- Simulation Profile ---
+Simulation Start (UTC): 2026-11-10 00:00:00+00:00
+Simulation End (UTC):   2026-11-11 00:00:00+00:00
+Time Step Size:         5 seconds
+Total Grid Points:      17281
+
+--- Modeling Assumptions & Caveats ---
+Disclaimer: This simulation utilizes classical Keplerian two-body analytical orbital mechanics
+over a perfectly spherical, rotating Earth. It ignores non-spherical gravitational harmonics (J2),
+atmospheric drag, solar radiation pressure, and third-body lunisolar perturbations.
+
+--- Parsed Keplerian Elements Table (Stage 3) ---
+Satellite Name           | NORAD ID | Epoch (UTC)             | a (km)    | e        | i (deg) | RAAN (deg) | ArgP (deg) | M0 (deg)
+-----------------------------------------------------------------------------------------------------------------------------------
+PULSAR-0                 | 64541    | 2026-11-10 04:10:34     | 6880.97   | 0.000408 | 97.48   | 67.63      | 54.16      | 306.00  
+GSAT0225 (GALILEO 29)    | 59598    | 2026-11-09 08:30:06     | 29600.26  | 0.000159 | 55.22   | 97.02      | 171.21     | 226.89  
+SES-5                    | 38652    | 2026-11-10 04:02:09     | 42164.28  | 0.000191 | 0.05    | 32.20      | 188.01     | 254.68  
+QZS-2 (MICHIBIKI-2)      | 42738    | 2026-10-17 15:21:52     | 42170.36  | 0.074521 | 39.25   | 241.35     | 270.89     | 243.82  
+
+--- Orbit Summary Table (Stage 6) ---
+Satellite Name           | NORAD ID | Period (h) | Perigee (km) | Apogee (km) | Eccentricity | Incl (deg) | V_min(km/s) | V_max(km/s)
+-------------------------------------------------------------------------------------------------------------------------------------
+PULSAR-0                 | 64541    | 1.58       | 500.0        | 505.6       | 0.000408     | 97.48      | 7.608       | 7.614      
+GSAT0225 (GALILEO 29)    | 59598    | 14.08      | 23217.4      | 23226.8     | 0.000159     | 55.22      | 3.669       | 3.670      
+SES-5                    | 38652    | 23.93      | 35778.1      | 35794.2     | 0.000191     | 0.05       | 3.074       | 3.075      
+QZS-2 (MICHIBIKI-2)      | 42738    | 23.94      | 32649.6      | 38934.8     | 0.074521     | 39.25      | 2.853       | 3.313      
